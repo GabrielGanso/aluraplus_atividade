@@ -68,7 +68,7 @@ body {
     display: grid;
     grid-template-columns: 50% 50%;
     align-items: center;
-    margin: 10em;
+    margin: 8em;
 }
 
 .secundario__imagem {
@@ -156,3 +156,48 @@ body {
     color: var(--botao-azul);
 }
 
+@media screen and (max-width:1000px) {
+    .container {
+        display: block;
+        background-image: none;
+        height: 60vh;
+    }
+    
+    .container__imagem {
+        width: 50vw;
+    }
+
+    .container__caixa {
+        margin: 3em 3em;
+    }
+
+    .secundario {
+        margin: 3em;
+        text-align: center;
+        height: 100vh;
+    }
+
+    .dispositivos__lista {
+        display: block;
+    }
+
+    .dispositivos__titulo {
+        margin: 0.5em;
+    }
+
+    .rodape {
+        margin: 0em 3em 2em 3em;
+    }
+
+    .rodape__logo {
+        margin: 0;
+    }
+
+    .rodape__lista {
+        display: block;
+    }
+    
+    .lista__link {
+        margin: 1.2em;
+    }
+}
